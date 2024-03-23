@@ -24,14 +24,10 @@ public class BroadcastsTime  {
                 continue;
             }
             if (flag == false) {
-                if (time.charAt(i) != '0'|| (i == 1 && time.charAt(i) == '0')){
                     hour += time.charAt(i);
-                } 
             }
             else {
-                if (time.charAt(i) != '0'|| (i == 4 && time.charAt(i) == '0')){
-                    minute += time.charAt(i);
-                } 
+                minute += time.charAt(i);
             }
         }  
     }
