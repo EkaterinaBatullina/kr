@@ -47,7 +47,7 @@ public class BroadcastsTime  {
     boolean after(BroadcastsTime t) {
         
         boolean flag = false;
-        if (after(t) == false) {
+        if (before(t) == false) {
             if (hour() != t.hour() &&  minutes() != t.minutes()) {
                 flag = true;
             }
