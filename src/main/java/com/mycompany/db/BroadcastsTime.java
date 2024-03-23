@@ -41,7 +41,7 @@ public class BroadcastsTime  {
     }
     
     byte minutes() {
-        return new Byte(hour);
+        return new Byte(minute);
     }
     
     boolean after(BroadcastsTime t) {
