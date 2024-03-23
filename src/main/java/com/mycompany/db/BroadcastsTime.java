@@ -9,8 +9,8 @@ package com.mycompany.db;
  * @author ekaterina
  */
 public class BroadcastsTime  {
-    String hour;
-    String minute;
+    String hour = "";
+    String minute = "";
    
     public BroadcastsTime(String time) {
         
