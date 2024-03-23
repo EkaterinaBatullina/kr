@@ -94,7 +94,7 @@ public class DB {
 
 //        while (iterator1.hasNext()) { // по названию канала и времени
 //            Program current1 = iterator1.next();
-//            if (current1.name.equals(givenName)) {
+//            if (current1.chanel.equals(givenChanel)) {
 //                if (current1.time.equals(givenTime)) {
 //                    System.out.print(current.toString() + " ");
 //                }
@@ -103,7 +103,7 @@ public class DB {
 
 //        while (iterator1.hasNext()) { // по названию канала и промежутку времени
 //            Program current1 = iterator1.next();
-//            if (current1.name.equals(givenName)) {
+//            if (current1.chanel.equals(givenChanel)) {
 //                if (current1.time.between(givenTime1, givenTime2)) {
 //                    System.out.print(current.toString() + " ");
 //                }
