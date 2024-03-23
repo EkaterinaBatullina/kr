@@ -45,8 +45,8 @@ public class DB {
             if (current.charAt(0) == '#') {
                 
                 if (chanel != null) {
-                    map.put(chanel, chanelsPrograms);
-                    chanelsPrograms = new ArrayList<>();
+                    map.put(chanel, chanelsProgram);
+                    chanelsProgram = new ArrayList<>();
                 }
                 chanel = current;
                 
